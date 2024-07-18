@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tag_container{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 80px;
+    margin:0 0 200px 0;
+}
+
+.header .top_header{
+    color: #FFF;
+    font-family: "Alumni Sans";
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -3.08px;
+    margin: 0 0 -40px 0;
+}
+
+.header .bottom_header{
+    color: #FFF;
+    font-family: "Alumni Sans";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -2.2px;
+    margin: 0;
+}
+
+.link_to_path{
+    color: #FFF;
+    font-family: "Alumni Sans";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1.32px;
+    margin: 0;
+}

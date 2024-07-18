@@ -1,0 +1,108 @@
+/*================Start Flip box CSS=================*/
+
+.flip-box{
+    width: 100%;
+    height: 330px;
+    perspective:1000px; 
+    transition: ease all 2.3s;
+  }
+  .flip-box:hover .inner {
+    transform:rotateY(-180deg);
+  }
+  .flip-box:hover .inner:after {
+        background-color: black;
+  }
+  .inner{
+    width:100%;
+    height:100%;
+    transition:ease all 2s;
+    transform-style:preserve-3d;
+  }
+  .flip-box .inner::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    transition: ease all 3s;
+    background: rgba(0, 0, 0, 0);
+    z-index:3;
+    border-radius: 10px;
+  }
+  
+  .front,.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility:hidden;
+    overflow:hidden;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .3);
+  }
+  .back{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    transform:rotateY(180deg);
+    z-index:4;
+  }
+  .back a{
+    color:rgb(0, 0, 0);
+    font-size:2em;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    border:2px solid rgb(0, 0, 0);
+    padding:20px;
+  }
+  .back a:hover{
+    background:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+  }
+  
+  /*==============Flip box CSS End=================*/
+  
+  .title,.year{
+    margin: 5px 10px 5px 10px;
+    color: white;
+  }
+
+  .title{
+    font-size: 1em;
+    font-family: "Kanit", sans-serif;
+  }
+
+  .year{
+    font-size: 0.7em;
+    font-family: "Kanit", sans-serif;
+  }
+
+  @media screen and (max-width: 600px) {
+    .flip-box {
+      width: 120px !important;
+      height: 180px !important;
+    }
+
+    .title,.year{
+      margin:5px;
+      color: white;
+    }
+  
+    .title{
+      font-size: 0.8em;
+    }
+
+    .back .small_info{
+      padding: 10px;
+      font-size: 1em;
+      font-family: "Kanit", sans-serif;
+    }
+
+  }
+    

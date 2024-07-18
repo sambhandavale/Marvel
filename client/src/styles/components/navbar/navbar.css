@@ -1,0 +1,186 @@
+a{
+  text-decoration: none;
+}
+
+.extra_item:hover ,.items:hover{
+  color:rgb(180, 180, 180) !important;
+}
+
+nav {
+  display: flex;
+  height: 70px;
+  padding: 0 60px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #444;
+  background: #1e1e1e;
+}
+
+.navbar {
+  display: flex;
+  height: 65px;
+  align-items: center;
+  gap: 220px;
+}
+
+.nav_logo {
+  display: flex;
+  width: 211px;
+  height: 44.004px;
+  padding: 0 55px;
+  justify-content: center;
+  align-items: center;
+}
+
+.front_logo,
+.back_logo {
+  width: 100px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+.middle_nav {
+  display: flex;
+  padding: 20px 40px;
+  align-items: center;
+  gap: 49px;
+  border-right: 3px solid #444;
+  border-left: 3px solid #444;
+  margin: 0 0 0 80px;
+}
+
+.middle_nav .items {
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.44px;
+}
+
+.extra_nav {
+  display: flex;
+  height: 65px;
+  align-items: center;
+  gap: 40px;
+}
+
+.extra_item {
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.44px;
+  display: flex;
+}
+
+.extra_nav img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Flip card container */
+.card1 {
+  width: 100px;
+  height: 44px;
+  perspective: 1000px;
+  padding: 10px;
+}
+
+/* Flip card */
+.flip-box1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: ease all 1s;
+  transform-style: preserve-3d;
+}
+
+/* Front and back of flip card */
+.front1,
+.back1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+/* Hover effect on flip card */
+.card1:hover .flip-box1 {
+  transform: rotateY(-180deg);
+}
+
+/* Back of flip card */
+.flip-box1 .back1 {
+  transform: rotateY(180deg);
+}
+
+/* Image inside flip card */
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .navbar {
+    gap: 150px;
+  }
+
+  .middle_nav {
+    gap: 30px;
+    padding: 10px 20px;
+  }
+
+  .extra_nav {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0 20px;
+  }
+
+  .navbar {
+    gap: 80px;
+  }
+
+  .middle_nav {
+    gap: 20px;
+    padding: 5px 10px;
+    margin: 0;
+  }
+
+  .extra_nav {
+    gap: 10px;
+  }
+
+  .middle_nav .item,
+  .extra_nav .sign_up,
+  .extra_nav .login {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .navbar {
+    gap: 80px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .navbar {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 710px) {
+  .middle_nav,.extra_nav {
+    display: none;
+  }
+}

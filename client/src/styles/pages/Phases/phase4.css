@@ -1,0 +1,18 @@
+:root{
+    --bg-linear-gradient-black_panther_wakanda_forever:linear-gradient(270deg, rgba(0, 0, 0, 0.00) 3.06%, rgba(0, 0, 0, 0.00) 22.48%, rgba(0, 0, 0, 0.00) 51.86%, rgba(0, 0, 0, 0.00) 77.92%, #000 99.76%), linear-gradient(180deg, #000 1.22%, rgba(0, 0, 0, 0.00) 14.5%, rgba(0, 0, 0, 0.00) 39.11%, rgba(0, 0, 0, 0.00) 61.26%, #000 80.33%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
+    --bg-linear-gradient-black_widow: linear-gradient(270deg, rgba(0, 0, 0, 0.00) 3.06%, rgba(0, 0, 0, 0.00) 22.48%, rgba(0, 0, 0, 0.00) 51.86%, rgba(0, 0, 0, 0.00) 77.92%, #000 99.76%), linear-gradient(180deg, #000 1.22%, rgba(0, 0, 0, 0.00) 14.5%, rgba(0, 0, 0, 0.00) 39.11%, rgba(0, 0, 0, 0.00) 61.26%, #000 80.33%), linear-gradient(0deg, rgba(116, 116, 116, 0.20) 0%, rgba(116, 116, 116, 0.20) 100%);
+    --bg-linear-gradient-doctor_strange_multiverse_of_madness:linear-gradient(270deg, rgba(0, 0, 0, 0.00) 3.06%, rgba(0, 0, 0, 0.00) 22.48%, rgba(0, 0, 0, 0.00) 51.86%, rgba(0, 0, 0, 0.00) 77.92%, #000 99.76%), linear-gradient(180deg, #000 1.22%, rgba(0, 0, 0, 0.00) 14.5%, rgba(0, 0, 0, 0.00) 39.11%, rgba(0, 0, 0, 0.00) 61.26%, #000 80.33%), linear-gradient(0deg, rgba(116, 116, 116, 0.20) 0%, rgba(116, 116, 116, 0.20) 100%);
+    --bg-linear-gradient-eternals:linear-gradient(270deg, rgba(0, 0, 0, 0.00) 3.06%, rgba(0, 0, 0, 0.00) 22.48%, rgba(0, 0, 0, 0.00) 51.86%, rgba(0, 0, 0, 0.00) 77.92%, #000 99.76%), linear-gradient(180deg, #000 1.22%, rgba(0, 0, 0, 0.00) 14.5%, rgba(0, 0, 0, 0.00) 39.11%, rgba(0, 0, 0, 0.00) 61.26%, #000 80.33%), linear-gradient(0deg, rgba(116, 116, 116, 0.20) 0%, rgba(116, 116, 116, 0.20) 100%);
+    --bg-linear-gradient-shang_chi_and_the_legend_of_the_ten_rings:linear-gradient(270deg, rgba(0, 0, 0, 0.00) 3.06%, rgba(0, 0, 0, 0.00) 22.48%, rgba(0, 0, 0, 0.00) 51.86%, rgba(0, 0, 0, 0.00) 77.92%, #000 99.76%), linear-gradient(180deg, #000 1.22%, rgba(0, 0, 0, 0.00) 14.5%, rgba(0, 0, 0, 0.00) 39.11%, rgba(0, 0, 0, 0.00) 61.26%, #000 80.33%), linear-gradient(91deg, rgba(255, 122, 0, 0.06) 11.32%, rgba(255, 0, 0, 0.30) 93.19%);
+    --bg-linear-gradient-spider_man_no_way_home:linear-gradient(270deg, rgba(0, 0, 0, 0.00) 3.06%, rgba(0, 0, 0, 0.00) 22.48%, rgba(0, 0, 0, 0.00) 51.86%, rgba(0, 0, 0, 0.00) 77.92%, #000 99.76%), linear-gradient(180deg, #000 1.22%, rgba(0, 0, 0, 0.00) 14.5%, rgba(0, 0, 0, 0.00) 39.11%, rgba(0, 0, 0, 0.00) 61.26%, #000 80.33%);
+    --bg-linear-gradient-thor_love_and_thunder:linear-gradient(270deg, rgba(0, 0, 0, 0.00) 3.06%, rgba(0, 0, 0, 0.00) 22.48%, rgba(0, 0, 0, 0.00) 51.86%, rgba(0, 0, 0, 0.00) 77.92%, #000 99.76%), linear-gradient(180deg, #000 1.22%, rgba(0, 0, 0, 0.00) 14.5%, rgba(0, 0, 0, 0.00) 39.11%, rgba(0, 0, 0, 0.00) 61.26%, #000 80.33%);
+}
+
+.top_phase4{
+    height: 900px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 31.69%, rgba(0, 0, 0, 0.00) 72.29%, #000 100%), url(/assets/movies/phase4/phase4_header.jpg) lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+} 

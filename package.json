@@ -1,0 +1,28 @@
+{
+  "name": "marvel2",
+  "version": "1.0.0",
+  "description": "MarvelDir Website",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambhandavale/Marvel2.git"
+  },
+  "author": "Samarth Bhandavale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambhandavale/Marvel2/issues"
+  },
+  "homepage": "https://github.com/sambhandavale/Marvel2#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
+  }
+}

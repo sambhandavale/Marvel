@@ -1,0 +1,18 @@
+:root{
+    --bg-linear-gradient-iron_man_3:linear-gradient(270deg, rgba(0, 0, 0, 0.00) 3.06%, rgba(0, 0, 0, 0.00) 22.48%, rgba(0, 0, 0, 0.00) 51.86%, rgba(0, 0, 0, 0.00) 77.92%, #000 99.76%), linear-gradient(180deg, #000 1.22%, rgba(0, 0, 0, 0.00) 14.5%, rgba(0, 0, 0, 0.00) 39.11%, rgba(0, 0, 0, 0.00) 61.26%, #000 80.33%), linear-gradient(90deg, rgba(255, 170, 71, 0.10) 14.43%, rgba(137, 8, 8, 0.20) 92.73%);
+    --bg-linear-gradient-thor_the_dark_world:linear-gradient(270deg, rgba(0, 0, 0, 0.00) 3.06%, rgba(0, 0, 0, 0.00) 22.48%, rgba(0, 0, 0, 0.00) 51.86%, rgba(0, 0, 0, 0.00) 77.92%, #000 99.76%), linear-gradient(180deg, #000 1.22%, rgba(0, 0, 0, 0.00) 14.5%, rgba(0, 0, 0, 0.00) 39.11%, rgba(0, 0, 0, 0.00) 61.26%, #000 80.33%), linear-gradient(92deg, rgba(255, 0, 0, 0.00) 12.69%, rgba(0, 133, 255, 0.20) 37.95%);
+    --bg-linear-gradient-captain_america_the_winter_soldier:linear-gradient(270deg, rgba(0, 0, 0, 0.00) 3.06%, rgba(0, 0, 0, 0.00) 22.48%, rgba(0, 0, 0, 0.00) 51.86%, rgba(0, 0, 0, 0.00) 77.92%, #000 99.76%), linear-gradient(180deg, #000 1.22%, rgba(0, 0, 0, 0.00) 14.5%, rgba(0, 0, 0, 0.00) 39.11%, rgba(0, 0, 0, 0.00) 61.26%, #000 80.33%), linear-gradient(0deg, rgba(0, 21, 63, 0.35) 0%, rgba(0, 21, 63, 0.35) 100%);
+    --bg-linear-gradient-guardians_of_the_galaxy:linear-gradient(270deg, rgba(0, 0, 0, 0.00) 3.06%, rgba(0, 0, 0, 0.00) 22.48%, rgba(0, 0, 0, 0.00) 51.86%, rgba(0, 0, 0, 0.00) 77.92%, #000 99.76%), linear-gradient(180deg, #000 1.22%, rgba(0, 0, 0, 0.00) 14.5%, rgba(0, 0, 0, 0.00) 39.11%, rgba(0, 0, 0, 0.00) 61.26%, #000 80.33%), linear-gradient(90deg, rgba(122, 0, 180, 0.12) 9.6%, rgba(21, 148, 0, 0.12) 23.97%, rgba(109, 52, 52, 0.15) 46.7%, rgba(255, 0, 0, 0.24) 79.68%, rgba(74, 54, 54, 0.30) 96.29%);
+    --bg-linear-gradient-avengers_age_of_ultron:linear-gradient(270deg, rgba(0, 0, 0, 0.00) 3.06%, rgba(0, 0, 0, 0.00) 22.48%, rgba(0, 0, 0, 0.00) 51.86%, rgba(0, 0, 0, 0.00) 77.92%, #000 99.76%), linear-gradient(180deg, #000 1.22%, rgba(0, 0, 0, 0.00) 14.5%, rgba(0, 0, 0, 0.00) 39.11%, rgba(0, 0, 0, 0.00) 61.26%, #000 80.33%), linear-gradient(0deg, rgba(58, 58, 58, 0.40) 0%, rgba(58, 58, 58, 0.40) 100%);
+    --bg-linear-gradient-ant-man:linear-gradient(270deg, rgba(0, 0, 0, 0.00) 3.06%, rgba(0, 0, 0, 0.00) 22.48%, rgba(0, 0, 0, 0.00) 51.86%, rgba(0, 0, 0, 0.00) 77.92%, #000 99.76%), linear-gradient(180deg, #000 1.22%, rgba(0, 0, 0, 0.00) 14.5%, rgba(0, 0, 0, 0.00) 39.11%, rgba(0, 0, 0, 0.00) 61.26%, #000 80.33%), linear-gradient(91deg, rgba(123, 123, 123, 0.10) 8.29%, rgba(250, 0, 0, 0.20) 93.14%);
+
+}
+
+.top_phase2{
+    height: 900px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 31.69%, rgba(0, 0, 0, 0.00) 72.29%, #000 100%), url(/assets/movies/phase2/phase2_header.jpg) lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+} 

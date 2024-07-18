@@ -1,0 +1,286 @@
+:root {
+    --white: #FFF;
+    --font-kanit: 'Kanit', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-size-small: 12px;
+    --font-size-medium: 18px;
+    --font-size-large: 20px;
+    --font-size-xlarge: 50px;
+    --font-weight-normal: 400;
+    --font-weight-semi-bold: 600;
+    --line-height-normal: normal;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.information {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.main_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.content_header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+}
+
+.content_title {
+    color: var(--white);
+    font-family: var(--font-kanit);
+    font-size: var(--font-size-xlarge);
+    font-weight: var(--font-weight-semi-bold);
+    line-height: var(--line-height-normal);
+    max-width: 700px;
+    
+}
+
+.genre_lang {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.genre,
+.lang {
+    color: var(--white);
+    font-family: var(--font-kanit);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-normal);
+}
+
+.userscore {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.percent {
+    color: var(--white);
+    font-family: var(--font-kanit);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-normal);
+    position: absolute;
+}
+
+.userscore_title {
+    color: var(--white);
+    font-family: var(--font-kanit);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-semi-bold);
+    line-height: var(--line-height-normal);
+}
+
+.director_credit{
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.director_credit .director,.creditscenes{
+    color: var(--white);
+    font-size: var(--font-size-large);
+    font-family: var(--font-kanit);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-normal);
+}
+
+.content_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.no_of_seasons,
+.visit_option .watch_now,
+.write_review .read_more,
+.write_review .write_review_title {
+    color: var(--white);
+    font-family: var(--font-kanit);
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-normal);
+}
+
+.desc,
+.review_content {
+    color: var(--white);
+    font-family: var(--font-kanit);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-normal);
+    width: 520px;
+}
+
+.review_content{
+    width: 572px;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-small);
+}
+
+.visit_option {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.trailer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.trailer img{
+    transition: transform ease-in-out 0.3s;
+}
+
+.trailer:hover img{
+    transform: scale(1.1);
+}
+
+.review_container {
+    width: 620px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.review_box {
+    display: flex;
+    padding: 12px 18px 18px 18px;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.54);
+    background: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(9.3px);
+}
+
+.profile_rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 227px;
+}
+
+.line {
+    background-color: var(--white);
+    width: 583px;
+    height: 2px;
+}
+
+.review_user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile_photo {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1.333px solid var(--white);
+    background: url(/assets/components/default/karen.png) lightgray -7.125px -3.375px / 124.219% 209.983% no-repeat;
+}
+
+.user_name_date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user_name {
+    color: var(--white);
+    font-family: var(--font-kanit);
+    font-size: 15.936px;
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-normal);
+}
+
+.review_date {
+    color: var(--white);
+    font-family: var(--font-kanit);
+    font-size: 8.964px;
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-normal);
+}
+
+.write_review {
+    display: flex;
+    align-items: flex-start;
+    gap: 266px;
+}
+
+.write_your_review {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.content .next_prev_phase{
+    display: flex;
+    width: 1240px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .prev_phase,.next_phase{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.content .prev_icon,.next_icon{
+    transition: transform ease-in-out 0.3s ;
+}
+
+.content .next_prev_phase_tag{
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.616px;
+}
+
+.content .next_prev_phase img{
+    width: 43.72px;
+    height: 22.792px;
+}
+
+.content .prev_phase:hover .prev_icon{
+    transform: translateX(-8px);
+}
+
+.content .next_phase:hover .next_icon{
+    transform: translateX(8px);
+}

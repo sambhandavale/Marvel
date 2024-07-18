@@ -1,0 +1,8 @@
+.top_phase5{
+    height: 900px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 31.69%, rgba(0, 0, 0, 0.00) 72.29%, #000 100%), url(/assets/movies/phase5/phase5_header.jpg) lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+} 

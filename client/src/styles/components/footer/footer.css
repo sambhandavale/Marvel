@@ -1,0 +1,238 @@
+footer .foot_container {
+    display: flex;
+    padding: 66px 77px 75px 79px;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid #3F3F3F;
+    background: #131313;
+}
+
+.foot_container .foot {
+    display: flex;
+    align-items: flex-start;
+    gap: 96px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.foot .footer_info {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+    /* flex-wrap: wrap; */
+    flex: 1;
+}
+
+.foot .footer_info img {
+    width: 150px;
+    height: 216.667px;
+}
+
+.footer_info .info_social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 33px;
+}
+
+.info_social .web_desc {
+    width: 100%;
+    max-width: 536px;
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.44px;
+}
+
+.social_links {
+    display: flex;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+.social_links img {
+    width: 36px !important;
+    height: 36px !important;
+}
+
+footer .marvel_rights {
+    display: flex;
+    padding: 5px 0px;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    width: 100%;
+}
+
+.marvel_rights .tag {
+    color: #000;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.44px;
+}
+
+.mail_extra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    flex: 1;
+}
+
+.mail_extra .newsletter {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.newsletter .email_newsletter {
+    display: flex;
+    width: 420px;
+    align-items: center;
+    padding: 8px 37px;
+    border-radius: 50px;
+    background: #FFF;
+    border: 0;
+    font-family: Kanit;
+}
+
+.newsletter .email_newsletter:focus {
+    outline: none;
+}
+
+.newsletter > button {
+    display: flex;
+    justify-content: center;
+    padding: 8px 38px;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    border: 0;
+    cursor: pointer;
+    font-family: Kanit;
+}
+
+.extra_extra {
+    display: flex;
+    align-items: center;
+    gap: 154px;
+}
+
+.extra_extra .extra2 {
+    display: flex;
+    height: 164px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 9px;
+}
+
+.tag {
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 45px */
+    letter-spacing: -0.66px;
+}
+
+.op {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.but_op {
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: -0.484px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .foot_container .foot {
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .foot .footer_info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .mail_extra {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info_social .web_desc {
+        width: 100%;
+    }
+
+    .footer_info .info_social {
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .foot_container {
+        padding: 40px 20px;
+    }
+
+    .info_social .web_desc {
+        font-size: 18px;
+    }
+
+    .tag {
+        font-size: 24px;
+    }
+
+    .but_op {
+        font-size: 18px;
+    }
+
+    .footer_info .info_social {
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .foot_container .foot {
+        gap: 24px;
+    }
+
+    .info_social .web_desc {
+        font-size: 16px;
+    }
+
+    .tag {
+        font-size: 20px;
+    }
+
+    .but_op {
+        font-size: 16px;
+    }
+
+    .footer_info .info_social {
+        align-items: center;
+    }
+}

@@ -1,0 +1,130 @@
+.movies .saga{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    flex-shrink: 0;
+}
+
+.movies .main_saga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 186px;
+    flex-shrink: 0;
+}
+
+.movies .infinity_saga{
+    background: linear-gradient(180deg, #000 -4.35%, rgba(0, 0, 0, 0.00) 18.35%, rgba(0, 0, 0, 0.00) 48.19%, rgba(0, 0, 0, 0.00) 74.48%, #000 106.48%), linear-gradient(270deg, #000 4.05%, rgba(0, 0, 0, 0.00) 52.94%, #000 98.03%), url(/assets/movies/saga/infinity_saga.jpg) lightgray 50% / cover no-repeat;
+}
+
+.movies .multiverse_saga{
+    background: linear-gradient(180deg, #000 -4.35%, rgba(0, 0, 0, 0.00) 18.35%, rgba(0, 0, 0, 0.00) 48.19%, rgba(0, 0, 0, 0.00) 74.48%, #000 106.48%), linear-gradient(270deg, #000 4.05%, rgba(0, 0, 0, 0.00) 52.94%, #000 98.03%), url(/assets/movies/saga/multiverse_saga.jpg) lightgray 50% / cover no-repeat;
+}
+
+.movies .info{
+    display: flex;
+    padding-bottom: 256px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.movies .saga_info{
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: -0.484px;
+}
+
+.movies .about{
+    display: flex;
+    max-width: 708px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.movies .title{
+    color: #FFF;
+    font-family: "Alumni Sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 180px */
+    font-size: 120px;
+    letter-spacing: -2.64px;
+    margin: 0;
+}
+
+.movies .tag{
+    color: #FFF;
+    font-family: "Alumni Sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 180px */
+    font-size: 60px;
+    letter-spacing: -1.32px;
+}
+
+.movies .phases{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-shrink: 0;
+}
+
+.movies .p{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid #FFF;
+
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 66px */
+    letter-spacing: -0.968px;
+    transition: transform 0.3s ease-in, font-size 0.3s ease-in;
+}
+
+.movies .p:hover{
+    transform: scale(1.1);
+    font-size: 52px;
+}
+
+.movies .phase1{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(/assets/movies/phase1/phase1_header.jpg) lightgray 50% / cover no-repeat;
+}
+
+.movies .phase2{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(/assets/movies/phase2/phase2_header.jpg) lightgray 50% / cover no-repeat;
+}
+
+.movies .phase3{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(/assets/movies/phase3/phase3_header.jpg) lightgray 50% / cover no-repeat;
+}
+
+.movies .phase4{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(/assets/movies/phase4/phase4_header.jpg) lightgray 50% / cover no-repeat;
+}
+
+.movies .phase5{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(/assets/movies/phase5/phase5_header.jpg) lightgray 50% / cover no-repeat;
+}
+
+.movies .phase6{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(/assets/movies/phase6/phase6_header.jpg) lightgray 50% / cover no-repeat;
+}
