@@ -96,7 +96,7 @@ footer .marvel_rights {
 
 .newsletter .email_newsletter {
     display: flex;
-    width: 420px;
+    width: 350px;
     align-items: center;
     padding: 8px 37px;
     border-radius: 50px;
@@ -136,13 +136,13 @@ footer .marvel_rights {
     gap: 9px;
 }
 
-.tag {
+.extra2 .tag {
     color: #FFF;
     font-family: Kanit;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 45px */
+    line-height: 150%; 
     letter-spacing: -0.66px;
 }
 
@@ -163,10 +163,15 @@ footer .marvel_rights {
     letter-spacing: -0.484px;
 }
 
-/* Media Queries */
+
+@media (max-width: 1400px) {
+    .info_social .web_desc {
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 1200px) {
     .foot_container .foot {
-        flex-direction: column;
         align-items: center;
         gap: 48px;
     }
@@ -186,10 +191,28 @@ footer .marvel_rights {
 
     .info_social .web_desc {
         width: 100%;
+        font-size: 16px;
     }
 
     .footer_info .info_social {
         align-items: center;
+    }
+
+    .extra2 .tag{
+        font-size: 24px;
+    }
+
+    .but_op{
+        font-size: 20px;
+    }
+
+    .newsletter .email_newsletter{
+        width: 300px;
+    }
+
+    .foot .footer_info img {
+        width: 120px;
+        height: 173.33px;
     }
 }
 
