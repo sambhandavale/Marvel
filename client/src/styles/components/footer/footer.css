@@ -1,3 +1,7 @@
+footer{
+    width: 100%;
+}
+
 footer .foot_container {
     display: flex;
     padding: 66px 77px 75px 79px;

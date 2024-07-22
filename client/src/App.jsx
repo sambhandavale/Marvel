@@ -6,7 +6,6 @@ import Footer from "./components/layout/footer/footer";
 import routes from "./routes";
 import "./main.css"
 
-
 export default function App() {
 
   const path = useLocation();
@@ -21,7 +20,6 @@ export default function App() {
           <Route key={index} path={route.path} element={route.element} exact={route.exact} />
         ))}
       </Routes>
-      <div className="blank"></div>
       <Footer />
     </div>
   );
